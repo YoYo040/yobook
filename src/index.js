@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
-  BrowserRouter, Routes, Route, HashRouter
+  BrowserRouter, Routes, Route, 
 } from 'react-router-dom';
 import { AppProvider } from './context.';
 import './index.css';
@@ -13,7 +13,7 @@ import BookDetails from "./components/BookDetails/BookDetails";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <AppProvider>
-    <HashRouter>
+    
 
     <BrowserRouter>
       <Routes>
@@ -24,7 +24,7 @@ root.render(
         </Route>
       </Routes>
     </BrowserRouter>
-    </HashRouter>
+    
   </AppProvider>
 );
 
